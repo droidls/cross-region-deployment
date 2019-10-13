@@ -1,0 +1,16 @@
+cross-region-artifact-store-bucket-us-west-2-lsdca
+cross-region-artifact-store-bucket-ap-southeast-2-lsdca
+cross-region-artifact-store-bucket-us-east-1-lsdca
+
+
+source-code-bucket-us-west-2-sourceldca
+
+
+
+sudo aws deploy push \
+	--application-name RoomRent_App \
+	--s3-location s3://source-code-bucket-eu-west-2-507900946735/	RoomRentApp.zip \
+	--ignore-hidden-files
+
+
+	/opt/codedeploy-agent/deployment-root/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/d-XXXXXXXXX
