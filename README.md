@@ -1,3 +1,10 @@
+## Note
+
+This was forked from https://github.com/aws-samples/aws-codepipeline-cross-region-continuous-deployment with errors corrected.
+
+Here is where you can find the tutorial from:
+https://aws.amazon.com/blogs/devops/using-aws-codepipeline-to-perform-multi-region-deployments/
+
 ## License Summary
 
 This sample code is made available under a modified MIT license. See the LICENSE file.
